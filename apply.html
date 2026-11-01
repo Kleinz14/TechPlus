@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courses | TechPlus Institute</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pages.css">
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html" class="logo"><img src="images/logo.svg" alt="TechPlus Institute"></a>
+
+    <nav id="mainNav">
+      <a href="courses.html">Courses</a>
+      <a href="about.html">About</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a><a href="login.html">Login</a>
+    </nav>
+
+    <a href="apply.html" class="btn">Apply Now</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>Apply for a Course</h1>
+        <p>Fill in the form and we will contact you with the next steps.</p>
+        <p class="crumbs">Home › Admissions › Apply</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="auth-card wide">
+          <form id="applyForm" novalidate>
+
+            <h2>Personal details</h2>
+            <div class="form-grid">
+              <div class="field">
+                <label for="aName">Full name</label>
+                <input type="text" id="aName" placeholder="Your full name">
+              </div>
+              <div class="field">
+                <label for="aEmail">Email address</label>
+                <input type="email" id="aEmail" placeholder="you@example.com">
+              </div>
+              <div class="field">
+                <label for="aPhone">Phone number</label>
+                <input type="tel" id="aPhone" placeholder="+256 700 000 000">
+              </div>
+              <div class="field">
+                <label for="aEdu">Highest education</label>
+                <select id="aEdu">
+                  <option value="">Select one</option>
+                  <option>O-Level</option>
+                  <option>A-Level</option>
+                  <option>Certificate or Diploma</option>
+                  <option>Degree</option>
+                </select>
+              </div>
+            </div>
+
+            <h2>Your course</h2>
+            <div class="form-grid">
+              <div class="field">
+                <label for="aCourse">Course</label>
+                <select id="aCourse">
+                  <option value="">Select a course</option>
+                  <option>Computer Essentials</option>
+                  <option>Web Development</option>
+                  <option>Data Analysis</option>
+                  <option>Cyber Security</option>
+                  <option>IT Support &amp; Networking</option>
+                  <option>Graphics &amp; Digital Design</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="aStart">Preferred start date</label>
+                <select id="aStart">
+                  <option value="">Select a date</option>
+                  <option>15 Nov 2026</option>
+                  <option>20 Nov 2026</option>
+                  <option>1 Dec 2026</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Learning mode</label>
+              <div class="radio-row">
+                <label><input type="radio" name="mode" value="in-person" checked> In-person</label>
+                <label><input type="radio" name="mode" value="online"> Online</label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="aWhy">Why do you want to join?</label>
+              <textarea id="aWhy" rows="4" placeholder="Tell us a little about your goals"></textarea>
+            </div>
+
+            <label class="check">
+              <input type="checkbox" id="aTerms"> I confirm that my details are correct.
+            </label>
+
+            <p id="applyNote" class="form-note"></p>
+            <button type="submit" class="btn">Submit Application →</button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="images/logo.svg" alt="TechPlus Institute"></a>
+        <p>Skill Today. A Brighter Tomorrow.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTub">▶</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>About TechPlus</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html">Our Mission</a></li>
+          <li><a href="about.html">Our Team</a></li>
+          <li><a href="blog.html">News &amp; Events</a></li>
+        </ul>
+      </div>
+
+
+      <div>
+        <h4>Our Courses</h4>
+        <ul>
+          <li><a href="courses.html">Computer Essentials</a></li>
+          <li><a href="courses.html">Web Development</a></li>
+          <li><a href="courses.html">Data Analysis</a></li>
+          <li><a href="courses.html">Cyber Security</a></li>
+          <li><a href="courses.html">Graphics &amp; Design</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="admission.html">Admission</a></li>
+          <li><a href="blog.html.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Get in Touch</h4>
+        <ul>
+          <li>📞 +256 700 123 456</li>
+          <li>✉️ denisbameka@gmail.com</li>
+          <li>📍 Mengo Bulange</li>
+          <li>🕗 Always Open</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="copyright">© 2026 TechPlus. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="menu.js"></script>
+  <script src="/auth.js"></script>
+</body>
+
+</html>

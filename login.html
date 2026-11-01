@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courses | TechPlus Institute</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pages.css">
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html" class="logo"><img src="images/logo.svg" alt="TechPlus Institute"></a>
+   
+    <nav id="mainNav">
+      <a href="courses.html">Courses</a>
+      <a href="about.html">About</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a><a href="login.html">Login</a>
+    </nav>
+
+    <a href="apply.html" class="btn">Apply Now</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>Welcome Back</h1>
+        <p>Log in to your student account.</p>
+        <p class="crumbs">Home › Login</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="auth-card">
+          <form id="loginForm" novalidate>
+
+            <div class="field">
+              <label for="lEmail">Email address</label>
+              <input type="email" id="lEmail" placeholder="you@example.com">
+            </div>
+
+            <div class="field">
+              <label for="lPass">Password</label>
+              <div class="pw-wrap">
+                <input type="password" id="lPass" placeholder="Your password">
+                <button type="button" class="pw-toggle">Show</button>
+              </div>
+            </div>
+
+            <div class="row-between">
+              <label class="check"><input type="checkbox" id="lRemember"> Remember me</label>
+              <a href="#">Forgot password?</a>
+            </div>
+
+            <p id="loginNote" class="form-note"></p>
+            <button type="submit" class="btn">Log In →</button>
+
+            <p class="auth-links">New to TechPlus? <a href="register.html">Create an account</a></p>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="images/logo.svg" alt="TechPlus Institute"></a>
+        <p>Skill Today. A Brighter Tomorrow.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTub">▶</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>About TechPlus</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html">Our Mission</a></li>
+          <li><a href="about.html">Our Team</a></li>
+          <li><a href="blog.html">News &amp; Events</a></li>
+        </ul>
+      </div>
+
+
+      <div>
+        <h4>Our Courses</h4>
+        <ul>
+          <li><a href="courses.html">Computer Essentials</a></li>
+          <li><a href="courses.html">Web Development</a></li>
+          <li><a href="courses.html">Data Analysis</a></li>
+          <li><a href="courses.html">Cyber Security</a></li>
+          <li><a href="courses.html">Graphics &amp; Design</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="admission.html">Admission</a></li>
+          <li><a href="blog.html.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Get in Touch</h4>
+        <ul>
+          <li>📞 +256 700 123 456</li>
+          <li>✉️ denisbameka@gmail.com</li>
+          <li>📍 Mengo Bulange</li>
+          <li>🕗 Always Open</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="copyright">© 2026 TechPlus. All rights reserved.</p>
+  </footer>
+
+  <script src="auth.js"></script>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>

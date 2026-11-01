@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width", initial-scale="1.0">
+
+<head>
+    <title>Techplus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" as="image" href="images/hero1.jpg">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/logo.svg" alt="TechPlus Institute"></a>
+
+        <nav id="mainNav">
+            <a href="courses.html">Courses</a>
+            <a href="about.html">About</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a><a href="login.html">Login</a>
+        </nav>
+
+        <a href="apply.html" class="btn">Apply Now</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">&#9776;</button>
+    </header>
+
+    <section class="hero">
+        <div class="hero-track">
+            <div class="hero-slide" style="--img: url('images/hero1.jpg')"></div>
+            <div class="hero-slide" style="--img: url('images/hero2.jpg')"></div>
+            <div class="hero-slide" style="--img: url('images/hero3.jpg')"></div>
+            <div class="hero-slide" style="--img: url('images/hero1.jpg')"></div>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="wrap hero-grid">
+            <div class="hero-text">
+                <p class="eyebrow" id="eyebrow">COMPUTER TRAINING FOR A BRIGHTER TOMORROW</p>
+                <h1><span id="title1">Learn Technology.</span> <span id="title2">Build Your Futuer.</span></h1>
+                <p class="sub" id="sub">Professional computer training for students and professionals.</p>
+                <div class="hero-buttons">
+                    <a href="courses.html" class="btn">Explore Courses →</a>
+                    <a href="apply.html" class="btn btn-outline">Apply Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-dots"></div>
+    </section>
+
+    <section class="courses">
+        <div class="wrap">
+            <p class="label">OUR COURSES</p>
+            <h2>Popular Training Programs</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="icon">🪟</div>
+                    <h3>Computer Essentials</h3>
+                    <p>Learn windows, Microsoft Office, internet skills and more.</p>
+                    <a href="courses.html" class="more">Learn More →</a>
+                </div>
+
+                <div class="card">
+                    <div class="icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, React and modern web technologies.</p>
+                    <a href="courses.html" class="more">Learn More →</a>
+                </div>
+
+                <div class="card">
+                    <div class="icon">📊</div>
+                    <h3>Data Analysis</h3>
+                    <p>Excel, Power BI, data visualization and data-driven decision making.</p>
+                    <a href="courses.html" class="more">Learn More →</a>
+                </div>
+                <div class="card">
+                    <div class="icon">🔒</div>
+                    <h3>Cyber Security</h3>
+                    <p>Network security, ethical hacking and security fundamentals.</p>
+                    <a href="courses.html" class="more">Learn More →</a>
+                </div>
+
+                <div class="card">
+                    <div class="icon">☁️</div>
+                    <h3>IT Support &amp; Networking</h3>
+                    <p>Hardware, networking, troubleshooting and cloud basics.</p>
+                    <a href="courses.html" class="more">Learn More →</a>
+                </div>
+
+                <div class="card">
+                    <div class="icon">✏️</div>
+                    <h3>Graphics &amp; Digital Design</h3>
+                    <p>Photoshop, Illustrator, Canva and creative design skills.</p>
+                    <a href="courses.html" class="more">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="wrap why-grid">
+
+            <div class="gallery" id="gallery">
+                <figure class="g on" style="--img: url('images/institute2.jpg')">
+                    <figcaption>Modern computer labs</figcaption>
+                </figure>
+                <figure class="g" style="--img: url('images/institute1.jpg')">
+                    <figcaption>Hands-on training</figcaption>
+                </figure>
+                <figure class="g" style="--img: url('images/institute1.jpg')">
+                    <figcaption>Our expert trainers</figcaption>
+                </figure>
+                <div class="gallery-dots"></div>
+            </div>
+
+            <div class="why-text">
+                <p class="label">WHY CHOOSE TECHPLUS</p>
+                <h2>Your Success Is Our Priority</h2>
+                <ul class="ticks">
+                    <li>Certified and experienced trainers</li>
+                    <li>Career support and job placement guidance</li>
+                    <li>Hands-on projects and real-world practice</li>
+                    <li>International certification preparation</li>
+                    <li>Mordern computer Labs</li>
+                    <li>Flexible learning modes (in-person &amp; online)</li>
+                </ul>
+            </div>
+
+            <div class="why-join">
+                <p>More Than Training. <br>A Brighter Future.</p>
+                <a href="apply.html" class="btn">Jion Techplus Today →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <section class="stats">
+        <div class="wrap stats-grid">
+
+            <div class="stat">
+                <b class="count" data-target="1500" data-suffix="+">1,500+</b>
+                <span>Students Trained</span>
+            </div>
+
+            <div class="stat">
+                <b class="count" data-target="25" data-suffix="+">25+</b>
+                <span>Courses Offered</span>
+            </div>
+
+            <div class="stat">
+                <b class="count" data-target="98" data-suffix="%">98%</b>
+                <span>Success Rate</span>
+            </div>
+
+            <div class="stat">
+                <b class="count" data-target="10" data-suffix="+">10+</b>
+                <span>Professional Trainers</span>
+            </div>
+
+            <q class="stats-quote">Skills change lives, and we're here to make it happen.</q>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="wrap feedback-grid">
+
+            <div class="reviews">
+                <p class="label">STUDENT TESTIMONIALS</p>
+                <h2>What Our Students say</h2>
+
+                <div class="review-box">
+                    <div class="review on">
+                        <div class="stars">★★★★★</div>
+                        <p>"Great trainers, modern facilities and strong career support. Highly recommended!"</p>
+                        <div class="person"> <span class="avatar">DM</span></div><b>Daniel M.</b><small>IT Support
+                            Specialist</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="stars">★★★★★</div>
+                <p>"I started with zero computer skills and now i design for clients. Thank you Techplus!"</p>
+                <div class="person"><span class="avatar">GN</span></div><b>Grace N.</b><small>Graphic Designer</small>
+            </div>
+        </div>
+
+        <div class="review">
+            <div class="stars">★★★★★</div>
+            <p>"Great trainers, modern facilities and strong career support. Highly recommended!"</p>
+            <div class="person"><span class="avatar">DM</span>
+                <div><b>Daniel M.</b><small>IT Support Specialist</small></div>
+            </div>
+        </div>
+
+        <div class="review">
+            <div class="stars">★★★★★</div>
+            <p>"I started with zero computer skills and now I design for clients. Thank you TechPlus!"</p>
+            <div class="person"><span class="avatar">GN</span>
+                <div><b>Grace N.</b><small>Graphic Designer</small></div>
+            </div>
+        </div>
+        </div>
+
+        <div class="review-controls">
+            <button id="prevReview" aria-label="Previous">‹</button>
+            <button id="nextReview" aria-label="Next">›</button>
+        </div>
+        </div>
+
+        <div class="classes">
+            <p class="label">UPCOMING CLASSES</p>
+            <h2>Start Your Journey Soon</h2>
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Start Date</th>
+                    <th>Duration</th>
+                </tr>
+                <tr>
+                    <td>Computer Basics</td>
+                    <td>15 Nov 2026</td>
+                    <td>4 Weeks</td>
+                </tr>
+                <tr>
+                    <td>Web Development</td>
+                    <td>20 Nov 2026</td>
+                    <td>8 Weeks</td>
+                </tr>
+                <tr>
+                    <td>Data Analysis</td>
+                    <td>25 Nov 2026</td>
+                    <td>6 Weeks</td>
+                </tr>
+                <tr>
+                    <td>Cyber Security</td>
+                    <td>1 Dec 2026</td>
+                    <td>8 Weeks</td>
+                </tr>
+            </table>
+            <div class="seats">
+                <p><b>Seats are limited!</b> Apply now and take the next step in your career.</p>
+                <a href="apply.html" class="btn btn-white">Apply Now →</a>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="wrap footer-grid">
+
+            <div class="footer-brand">
+                <a href="index.html" class="logo"><img src="images/logo.svg" alt="TechPlus Institute"></a>
+                <p>Skill Today. A Brighter Tomorrow.</p>
+                <div class="socials">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                    <a href="#" aria-label="YouTub">▶</a>
+                </div>
+            </div>
+
+            <div>
+                <h4>About TechPlus</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about.html">Our Mission</a></li>
+                    <li><a href="about.html">Our Team</a></li>
+                    <li><a href="blog.html">News &amp; Events</a></li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h4>Our Courses</h4>
+                <ul>
+                    <li><a href="courses.html">Computer Essentials</a></li>
+                    <li><a href="courses.html">Web Development</a></li>
+                    <li><a href="courses.html">Data Analysis</a></li>
+                    <li><a href="courses.html">Cyber Security</a></li>
+                    <li><a href="courses.html">Graphics &amp; Design</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="blog.html.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Get in Touch</h4>
+                <ul>
+                    <li>📞 +256 700 123 456</li>
+                    <li>✉️ denisbameka@gmail.com</li>
+                    <li>📍 Mengo Bulange</li>
+                    <li>🕗 Always Open</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <p class="copyright">© 2026 TechPlus. All rights reserved.</p>
+    </footer>
+    <script src="menu.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
