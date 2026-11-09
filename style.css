@@ -44,6 +44,12 @@ nav a:hover {
   font-weight: bold;
 }
 
+.btn:hover {
+  color: var(--blue);
+  background: var(--navy);
+  transition: color 0.2s ;
+}
+
 header {
   background: var(--cream);
   display: flex;
@@ -661,7 +667,7 @@ hero-text.animate > :nth-child(4) {
   .feedback-grid {
     grid-template-columns: 1fr;
   }
-
+}
 
 .footer {
   background: #071433;
@@ -738,7 +744,7 @@ hero-text.animate > :nth-child(4) {
   border-top: 1px solid #1b2c5a;
   font-size: 0.8rem;
 }
-}
+
 
 @media (max-width: 900px) {
   .footer-grid {
@@ -1122,8 +1128,6 @@ header {
   grid-area: 1 / 1;
   opacity: 0;
   visibility: hidden;
-  transform: translateX(30px);
-  transition: opacity 0.6s, transform 0.6s, visibility 0.6s;
 }
 
 .review.on {
@@ -1132,7 +1136,7 @@ header {
   transform: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .why-grid {
     grid-template-columns: 1fr;
     gap: 28px;
