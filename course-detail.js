@@ -1,6 +1,6 @@
 
 const params = new URLSearchParams(window.location.search);
-const course = COURSES[params.get('course')];
+const course = COURSES[params.get('course') || 'essentials'];
 
 if (!course) {
   document.getElementById('detailBox').hidden = true;

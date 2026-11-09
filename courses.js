@@ -12,11 +12,6 @@ function filter() {
     const matchText = card.textContent.toLowerCase().includes(text);
     card.style.display = matchCat && matchText ? '' : 'none';
   });
-
-      // each Learn More link opens the page for its own course
-cards.forEach(function (card) {
-  card.querySelector('.more').href = 'course-detail.html?course=' + card.dataset.cat;
-});
 }
 
 searchBox.addEventListener('input', filter);
