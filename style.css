@@ -661,7 +661,7 @@ hero-text.animate > :nth-child(4) {
   .feedback-grid {
     grid-template-columns: 1fr;
   }
-}
+
 
 .footer {
   background: #071433;
@@ -737,6 +737,7 @@ hero-text.animate > :nth-child(4) {
   padding-top: 16px;
   border-top: 1px solid #1b2c5a;
   font-size: 0.8rem;
+}
 }
 
 @media (max-width: 900px) {
